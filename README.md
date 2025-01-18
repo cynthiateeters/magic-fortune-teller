@@ -35,32 +35,16 @@ Forking a repository on GitHub allows you to create a copy of a repository under
 To work on the repository locally, clone it to your computer using Visual Studio Code:
 
 1. Open **Visual Studio Code**.
-2. Click on **Source Control** (or press `Ctrl + Shift + G` / `Cmd + Shift + G` on Mac).
+2. Click on **Source Control** (or press `Ctrl + Shift + G`).
 3. Click on **Clone Repository**.
 4. In the input field, paste the URL of your forked repository.
 5. Select a local folder to store the repository when prompted.
 6. Once the cloning process is complete, open the repository in VS Code.
 
-## Step 5: Configure the Upstream Repository (Optional)
-If you want to contribute to the original repository, you should set up an upstream remote in GitHub:
-
-1. Open your forked repository on GitHub.
-2. Click on **Settings**.
-3. Under **GitHub Remotes**, add the original repository as an upstream remote.
-4. Verify that your fork is correctly linked to the upstream repository.
-
-## Step 6: Sync Your Fork with the Original Repository (Optional)
-To keep your fork updated with the latest changes from the original repository using VS Code:
-
-1. Open VS Code and navigate to your forked repository.
-2. Click on **Source Control**.
-3. Click on **Fetch from all remotes** to check for updates.
-4. If updates are available, click **Pull** to merge changes into your local copy.
-
-## Step 7: Make Changes and Submit a Pull Request
+## Step 5: Make Changes and Submit a Pull Request
 1. Open the file(s) you want to modify in VS Code.
 2. Make the necessary changes and save the file(s).
-3. In the **Source Control** panel, stage the changes by clicking the `+` icon next to the file(s).
+3. Click on Source Control (or press Ctrl + Shift + G).
 4. Enter a commit message and click **Commit**.
 5. Click **Sync Changes** to push your updates to your fork on GitHub.
 6. Open GitHub and navigate to your forked repository.
